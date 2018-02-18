@@ -1,0 +1,28 @@
+.taskList {
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  overflow: scroll;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.taskList li {
+  margin-bottom: 5px;
+}
+
+.taskName {
+  margin-bottom: 4px;
+}
+
+.startTime {
+  opacity: 0.7;
+  margin-right: 2px;
+}
+
+.endTime {
+  margin-left: 2px;
+  opacity: 0.4;
+}
